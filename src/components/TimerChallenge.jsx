@@ -14,6 +14,9 @@ export default function TimerChallenge({ title, targetTime }) {
         }, targetTime * 1000)
     }
 
+    // function to handle stopping timer when stop challenge button is pressed.
+    
+
     return (
         <section className="challenge">
             <h2>{title}</h2>
