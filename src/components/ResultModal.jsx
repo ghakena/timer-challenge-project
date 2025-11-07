@@ -1,6 +1,6 @@
 import { forwardRef, useImperativeHandle, useRef } from "react";
 
-const ResultModal = forwardRef(function ResultModal({ result, targetTime }, ref) {
+const ResultModal = forwardRef(function ResultModal({ result, targetTime, remainingTime }, ref) {
     const dialog = useRef();
     
     useImperativeHandle(ref, () => {
